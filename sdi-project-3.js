@@ -49,3 +49,20 @@ var player = {			// properties
 	
 	
 	player.country();
+
+	if (teeOff === "8:25 AM"){
+	console.log("tee's off ");
+		} else {
+	console.log("It's not your tee time yet.");
+	};
+	
+	player.teeOff();
+	player.firstRound();
+	player.scoresEachRound(64, 68, 69, 70);
+	player.roundsTotal(64 + 68 + 69 + 70);
+	
+
+	for (var i=0, checkLength=roundsTotal.length; i < checkLength; i++) 
+{
+console.log(roundsTotal[i]);
+};
