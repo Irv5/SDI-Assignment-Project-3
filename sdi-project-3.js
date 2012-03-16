@@ -24,3 +24,15 @@ var player = {			// properties
 		scoresEachRound: function () {
 		console.log("David had a great 4 rounds of golf he shot a " + 64 + " on day one a "  + 68 + " on day two a " + 69 + " On the third day and a "  + 70 +  " for the final round, for a total of");
 	},
+
+	roundsTotal: function () {
+		console.log();
+	},
+	totalScore: function () {
+		console.log("and that's good enough for the win this week!!!");
+	},
+	comments: function () {
+		console.log("Comments from David after the win, Every thing just went my way this week. I was able to hit really good shots when I need them. And the putter did not let me down at all this week.");
+	},
+	
+};	
