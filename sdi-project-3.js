@@ -87,10 +87,8 @@ while (totalScore >-17) {
 	};
 
 	
-	
-	
-	
 	for (var key in player) {
 	//console.log("key: " + key + "' roundsTotal: " + player[key]);
 	console.log("key: " + key + "' roundsTotal ", player[key]);
+	
 }; 
