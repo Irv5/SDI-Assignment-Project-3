@@ -66,3 +66,31 @@ var player = {			// properties
 {
 console.log(roundsTotal[i]);
 };
+
+
+while (totalScore >-17) {
+	  totalScore-=1;
+	  console.log(totalScore);
+	
+	};
+	
+	player.totalScore();
+
+	player.comments();
+	
+	
+	
+	if (winner === true){
+		console.log("-17 Wins!");
+		} else {
+		console.log("-17 was just not good enough this week. ");
+	};
+
+	
+	
+	
+	
+	for (var key in player) {
+	//console.log("key: " + key + "' roundsTotal: " + player[key]);
+	console.log("key: " + key + "' roundsTotal ", player[key]);
+}; 
