@@ -36,3 +36,16 @@ var player = {			// properties
 	},
 	
 };	
+
+	var key = "name" 
+	var roundsTotal = [64 + 68 + 69 + 70];
+	var scoresEachRound = "64, 68, 69, 70";
+	var totalScore = -17;
+	var winner = true;
+	var teeOff = "8:25 AM"
+	
+	console.log()
+	console.log(player.name);
+	
+	
+	player.country();
